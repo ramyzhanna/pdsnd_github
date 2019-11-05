@@ -20,7 +20,7 @@ to apply no month filter
 to apply no day filter
   ""
 "
-print('Hello! Let\'s explore some US bikeshare data!')# TO DO: get user input
+print('Hello! Let\'s have some fun and explore some US bikeshare data!')# TO DO: get user input
 for city(chicago, new york city, washington).HINT: Use a
 while loop to handle invalid inputs
 city = input('\nWould you like to analyize the data for Chicago, New York, Washington or All?\n').lower()
@@ -36,14 +36,14 @@ else :
 
 # TO DO: get user input
 for month(all, january, february, ..., june)
-month = input('\nWhich month would you like to analyize? January, February, March, April, May, June or All?\n').lower()
+month = input('\nWhich month would you like to analyize? Jan, Feb, Mar, Apr, May, Jun or All?\n').lower()
 while (True):
-  if (month == 'january'
-    or month == 'february'
-    or month == 'march'
-    or month == 'april'
+  if (month == 'jan'
+    or month == 'feb'
+    or month == 'mar'
+    or month == 'apr'
     or month == 'may'
-    or month == 'june'
+    or month == 'jun'
     or month == 'all'):
     break
 else :
@@ -51,15 +51,15 @@ else :
 
 # TO DO: get user input
 for day of week(all, monday, tuesday, ...sunday)
-day = input('\nWhich day would you like to analyize? Monday, Tuesday, Wednesday, Thursday, Friday, Satday, Sunday or All?\n').lower()
+day = input('\nWhich day would you like to analyize? Mon, Tue, Wed, Thu, Fri, Sat, Sun or All?\n').lower()
 while (True):
-  if (day == 'monday'
-    or day == 'tuesday'
-    or day == 'wednesday'
-    or day == 'thursday'
-    or day == 'friday'
-    or day == 'saturday'
-    or day == 'sunday'
+  if (day == 'mon'
+    or day == 'tue'
+    or day == 'wed'
+    or day == 'thu'
+    or day == 'fri'
+    or day == 'sat'
+    or day == 'sun'
     day == 'all'):
     break
 else :
