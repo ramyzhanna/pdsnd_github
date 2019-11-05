@@ -51,15 +51,15 @@ else :
 
 # TO DO: get user input
 for day of week(all, monday, tuesday, ...sunday)
-day = input('\nWhich day would you like to analyize? Monday, Tuesday, Wednesday, Thursday, Friday, Satday, Sunday or All?\n').lower()
+day = input('\nWhich day would you like to analyize? Mon, Tue, Wedn, Thu, Fri, Sat, Sun or All?\n').lower()
 while (True):
-  if (day == 'monday'
-    or day == 'tuesday'
-    or day == 'wednesday'
-    or day == 'thursday'
-    or day == 'friday'
-    or day == 'saturday'
-    or day == 'sunday'
+  if (day == 'mon'
+    or day == 'tue'
+    or day == 'wed'
+    or day == 'thu'
+    or day == 'fri'
+    or day == 'sat'
+    or day == 'sun'
     day == 'all'):
     break
 else :
